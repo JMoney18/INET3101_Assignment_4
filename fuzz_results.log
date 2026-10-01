@@ -1,0 +1,13 @@
+PASS: valid (exit status 0)
+PASS: empty_file (exit status 1)
+PASS: short_header (exit status 1)
+PASS: bad_header (exit status 1)
+PASS: truncated_outbound (exit status 1)
+PASS: truncated_inbound (exit status 1)
+PASS: oversized (exit status 1)
+PASS: invalid_seat_id (exit status 1)
+PASS: invalid_status (exit status 1)
+PASS: nonprintable_name (exit status 1)
+PASS: unterminated_name (exit status 1)
+PASS: blank_assigned_name (exit status 1)
+Passed 12 of 12 tests.
